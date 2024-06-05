@@ -8,7 +8,8 @@ import {
 } from "formik";
 import {
 	FormGroup,
-	FormControl, Button
+	FormControl, Button,
+	NavLink
 } from "react-bootstrap";
 
 const StudentForm = (props) => {
@@ -46,7 +47,7 @@ const StudentForm = (props) => {
 							component="span"
 						/>
 					</FormGroup>
-					<br/>
+					<br/> 
 					<FormGroup>
 					<label>Email Id</label>
 						<Field name="email"
@@ -81,37 +82,6 @@ const StudentForm = (props) => {
 			</Formik>
 		</div>
 		</div>
-
-
-
-
-		// <>
-		// <div id="enter1">
-		// 	<form>
-		// 		<div class="form-group">
-		// 		<label for="">Name</label>
-		// 		<input type="text" name="name" id="" class="form-control" placeholder="Please Enter Your Name" aria-describedby="helpId"/>
-		// 		<small id="helpId" class="text-muted"></small>
-		// 		</div>
-        //          <br/>
-		// 		<div class="form-group">
-		// 		<label for="">Email</label>
-		// 		<input type="text" name="name" id="" class="form-control" placeholder="Please Enter Your Email Id" aria-describedby="helpId"/>
-		// 		<small id="helpId" class="text-muted"></small>
-		// 		</div>
-        //         <br/>
-		// 		<div class="form-group">
-		// 		<label for="">Roll No</label>
-		// 		<input type="text" name="name" id="" class="form-control" placeholder="Please Enter Your Roll No" aria-describedby="helpId"/>
-		// 		<small id="helpId" class="text-muted"></small>
-		// 		</div>
-		// 		<br/>
-
-
-		// 		<button type="submit" class="btn btn-primary">Submit</button>
-		// 	 </form> 
-		// </div>
-		// </>
 	);
 };
 

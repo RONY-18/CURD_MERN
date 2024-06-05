@@ -29,7 +29,6 @@ const StudentTableRow =
 					(err) =>
 						alert("Something went wrong"));
 		};
-
 		return (
 			
 				<tr>
