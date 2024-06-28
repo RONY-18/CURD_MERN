@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "6649989a29f43b5547cadf97"
+  },
+  "name": "Rony das",
+  "email": "rony@gmail.com",
+  "rollno": 1234567890,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66609a05b73c921d9cc6dbe5"
+  },
+  "name": "archisman",
+  "email": "archis@gmail.com",
+  "rollno": 2432454,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66609a18b73c921d9cc6dbe9"
+  },
+  "name": "Rony das",
+  "email": "rony@gmail.com",
+  "rollno": 543536536,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667a7507bdde2c057ac87441"
+  },
+  "name": "archisman",
+  "email": "archismanmukherjee500@gmail.com",
+  "rollno": {
+    "$numberLong": "4561237890"
+  },
+  "__v": 0
+}]
